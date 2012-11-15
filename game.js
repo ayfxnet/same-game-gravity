@@ -311,7 +311,8 @@
   }
   
   game.Colors = function() {
-    var clrs = [ new Color('#D34040'), new Color('#82D340'), new Color('#40C2D3'), new Color('#8B40D3'), new Color('#D3C840') ];
+    // var clrs = [ new Color('#D34040'), new Color('#82D340'), new Color('#40C2D3'), new Color('#8B40D3'), new Color('#D3C840') ];
+    var clrs = [ new Color('#D30000'), new Color('#00D300'), new Color('#00C2D3'), new Color('#0000D3'), new Color('#D3C800') ];
     return {
       get: function(nb) {
         return clrs
